@@ -6,11 +6,12 @@
 
   <parent>
     <artifactId>vertx-rx</artifactId>
-    <groupId>io.vertx</groupId>
+    <groupId>com.slinkydeveloper</groupId>
     <version>4.0.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
+  <groupId>com.slinkydeveloper</groupId>
   <artifactId>vertx-rx-java</artifactId>
   <version>4.0.0-SNAPSHOT</version>
 
@@ -37,8 +38,9 @@
 
     <!-- Stack dependencies -->
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.slinkydeveloper</groupId>
       <artifactId>vertx-codegen</artifactId>
+      <version>4.0.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
