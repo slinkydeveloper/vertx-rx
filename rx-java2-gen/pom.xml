@@ -49,8 +49,9 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>com.slinkydeveloper</groupId>
       <artifactId>vertx-codegen</artifactId>
+      <version>4.0.0-SNAPSHOT</version>
       <classifier>tck-sources</classifier>
       <scope>test</scope>
     </dependency>
@@ -144,7 +145,7 @@
               <goal>unpack-dependencies</goal>
             </goals>
             <configuration>
-              <includeGroupIds>io.vertx</includeGroupIds>
+              <includeGroupIds>com.slinkydeveloper</includeGroupIds>
               <includeArtifactIds>vertx-codegen</includeArtifactIds>
               <includeTypes>jar</includeTypes>
               <includeClassifiers>tck-sources</includeClassifiers>

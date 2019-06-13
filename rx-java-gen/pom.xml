@@ -111,7 +111,7 @@
               <goal>unpack-dependencies</goal>
             </goals>
             <configuration>
-              <includeGroupIds>io.vertx</includeGroupIds>
+              <includeGroupIds>com.slinkydeveloper</includeGroupIds>
               <includeArtifactIds>vertx-codegen</includeArtifactIds>
               <includeTypes>jar</includeTypes>
               <includeClassifiers>tck-sources</includeClassifiers>
